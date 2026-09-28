@@ -1,6 +1,6 @@
 name: dart_oxide
 description: "Rust inspired sum types for dart."
-version: 0.1.8
+version: 0.1.9
 repository: https://github.com/Rune-Shift/dart_kit/tree/main/packages/dart_oxide
 
 resolution: workspace

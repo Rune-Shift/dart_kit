@@ -1,3 +1,3 @@
-### Rust inspired sum types for dart
+### Rust-inspired types and utilities for Dart.
 
-#### Package under construction. Please come back later
+#### dart_oxide brings concepts from Rust to Dart, providing explicit and type-safe ways to represent values, optional values, and recoverable errors.

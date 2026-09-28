@@ -1,3 +1,7 @@
+## 0.1.9
+
+- Update read me with new description
+
 ## 0.1.8
 
 - Move package to a monorepo structure
