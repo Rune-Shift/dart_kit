@@ -1,14 +1,16 @@
 name: morf
 description: "A form controller package"
 version: 0.0.3
-publish_to: none
+
+resolution: workspace
 
 environment:
-  sdk: ">=3.8.0 <4.0.0"
+  sdk: ">=3.8.1 <4.0.0"
+  flutter: ">=3.32.8"
 
 dependencies:
   flutter:
     sdk: flutter
 
 dev_dependencies:
-  very_good_analysis: ^7.0.0
+  very_good_analysis: <=11.0.0
