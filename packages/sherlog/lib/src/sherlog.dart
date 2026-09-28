@@ -10,15 +10,15 @@ class Sherlog {
     this.level = LogLevel.trace,
     Map<LogLevel, AnsiColor>? levelColors,
   }) : _logger = Logger(
-          level: level.loggerLevel,
-          printer: PrettyPrinter(
-            methodCount: 0,
-            noBoxingByDefault: true,
-            lineLength: lineLength,
-            printEmojis: false,
-            levelColors: levelColors?.map((key, value) => MapEntry(key.loggerLevel, value)),
-          ),
-        );
+         level: level.loggerLevel,
+         printer: PrettyPrinter(
+           methodCount: 0,
+           noBoxingByDefault: true,
+           lineLength: lineLength,
+           printEmojis: false,
+           levelColors: levelColors?.map((key, value) => MapEntry(key.loggerLevel, value)),
+         ),
+       );
 
   final int lineLength;
   final LogLevel level;
@@ -200,15 +200,16 @@ class Sherlog {
     if (title != null && title.isNotEmpty) {
       _logger.log(level, _wrapLine('$title:', isTitle: true));
     }
-    _logger.log(level, prettyMessage);
-    _logger.log(level, '$_bottomLeft${_horizontal * (lineLength - 1)}$_bottomRight');
+    _logger
+      ..log(level, prettyMessage)
+      ..log(level, '$_bottomLeft${_horizontal * (lineLength - 1)}$_bottomRight');
   }
 
   String _prettifyText(dynamic text) {
     final String pretty;
 
     if (text is List || text is Map) {
-      pretty = JsonEncoder.withIndent(' ').convert(text);
+      pretty = const JsonEncoder.withIndent(' ').convert(text);
     } else {
       pretty = text.toString();
     }

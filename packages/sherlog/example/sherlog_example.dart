@@ -3,15 +3,14 @@
 import 'package:sherlog/sherlog.dart';
 
 void main() {
-  final sherlog = Sherlog(
-    level: LogLevel.all,
-    lineLength: 100,
-    levelColors: {
-      LogLevel.trace: AnsiColor.fg(ConsoleColor.violet.code),
-      LogLevel.fatal: AnsiColor.fg(ConsoleColor.purple.code),
-    },
-  );
-
-  sherlog.trace('Info');
-  sherlog.fatal('Info');
+  Sherlog(
+      level: LogLevel.all,
+      lineLength: 100,
+      levelColors: {
+        LogLevel.trace: AnsiColor.fg(ConsoleColor.violet.code),
+        LogLevel.fatal: AnsiColor.fg(ConsoleColor.purple.code),
+      },
+    )
+    ..trace('Info')
+    ..fatal('Info');
 }
