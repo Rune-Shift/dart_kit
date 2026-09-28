@@ -1,0 +1,16 @@
+name: dart_kit
+description: "A collection of reusable Dart packages and developer tools."
+homepage: https://github.com/Rune-Shift/dart_kit
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"
+  flutter: ">=3.32.8"
+
+workspace:
+  - packages/dart_oxide
+  - packages/img
+  - packages/konsumer
+  - packages/konsumer_core
+  - packages/morf
+  - packages/sherlog
+  - packages/statetris
