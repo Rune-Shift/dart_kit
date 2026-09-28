@@ -1,15 +1,12 @@
-import 'package:rusty_dart/rusty_dart.dart';
+import 'package:dart_oxide/dart_oxide.dart';
 
 void main() {
-  final result = fun0();
-  result.match(
+  fun0().match(
     ok: (x) {
       // do something with the contained value
-      print(x);
     },
     err: (e) {
       // do something with the contained error
-      print(e);
     },
   );
 }
