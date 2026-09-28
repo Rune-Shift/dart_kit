@@ -1,4 +1,4 @@
-## 0.1.20
+## 0.1.10
 
 - Add better description for the package
 - Fix license typo
