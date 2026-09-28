@@ -1,14 +1,12 @@
-name: rusty_dart
-description: Rust inspired sum types for dart.
+name: dart_oxide
+description: "Rust inspired sum types for dart."
 version: 0.1.7
-repository: https://github.com/TheMakersPrime/rusty_dart
+
+resolution: workspace
 
 environment:
-  sdk: ^3.0.5
-
-dependencies:
-  # dependencies
+  sdk: ">=3.8.1 <4.0.0"
 
 dev_dependencies:
-  lints: ^5.1.1
   test: ^1.25.14
+  very_good_analysis: <=11.0.0
