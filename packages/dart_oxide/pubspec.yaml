@@ -1,6 +1,6 @@
 name: dart_oxide
-description: "Rust inspired sum types for dart."
-version: 0.1.9
+description: "Rust-inspired sum types for Dart, providing expressive and type-safe abstractions such as Result for handling success and failure, without relying on exceptions."
+version: 0.1.20
 repository: https://github.com/Rune-Shift/dart_kit/tree/main/packages/dart_oxide
 
 resolution: workspace

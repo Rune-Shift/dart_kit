@@ -1,3 +1,8 @@
+## 0.1.20
+
+- Add better description for the package
+- Fix license typo
+
 ## 0.1.9
 
 - Update read me with new description
