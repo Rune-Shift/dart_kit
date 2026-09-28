@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Sherlog
+
+#### A simple and developer-friendly logging utility for Dart and Flutter.
+
+#### Sherlog focuses on making application logs clean, readable, and useful during development without getting in the way of your code.
