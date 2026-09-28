@@ -11,6 +11,7 @@
 migrate_working_dir/
 build/
 **/Podfile.lock
+**/.DS_Store
 
 # IntelliJ related
 *.iml
