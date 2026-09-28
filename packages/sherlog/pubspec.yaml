@@ -1,5 +1,5 @@
 name: sherlog
-description: A logging package
+description: "A developer-friendly logging utility for Dart and Flutter with clean, readable formatting, structured output, configurable log levels, and a simple API for everyday development."
 version: 1.0.3
 
 resolution: workspace
