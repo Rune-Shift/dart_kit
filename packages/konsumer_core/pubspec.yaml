@@ -1,6 +1,7 @@
 name: konsumer_core
 description: "A Riverpod consumer for easier provider consumption"
 version: 0.0.4
+repository: https://github.com/Rune-Shift/dart_kit/tree/main/packages/konsumer_core
 
 resolution: workspace
 
