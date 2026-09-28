@@ -1,6 +1,7 @@
-## 0.1.6
+## 0.1.8
 
-- Some info
+- Move package to a monorepo structure
+- Rename to dart_oxide
 
 ## 0.1.1
 
