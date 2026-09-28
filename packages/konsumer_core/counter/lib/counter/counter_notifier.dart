@@ -1,6 +1,4 @@
-// Copyright (c) 2025 TheMakersPrime Authors. All rights reserved.
-
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/riverpod.dart';
 
 final counterNotifierProvider = AutoDisposeNotifierProvider(CounterNotifier.new);
 
