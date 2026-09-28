@@ -16,13 +16,9 @@ dependencies:
       url: https://github.com/Order-of-Runes/foundation.git
       ref: 0.0.14
   konsumer:
-    git:
-      url: https://github.com/TheMakersPrime/konsumer.git
-      ref: main
+    path: ../
   konsumer_core:
-    git:
-      url: https://github.com/TheMakersPrime/konsumer_core.git
-      ref: main
+    path: ../../konsumer_core
 
 dev_dependencies:
   flutter_test:

@@ -1,4 +1,4 @@
-import 'package:counter/counter/counter_page.dart';
+// import 'package:counter/counter/counter_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
             seedColor: Colors.deepPurple,
           ),
         ),
-        home: const CounterPage(),
+        // home: const CounterPage(),
+        home: const Placeholder()
       ),
     );
   }

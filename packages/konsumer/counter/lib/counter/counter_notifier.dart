@@ -1,7 +1,6 @@
-// Copyright (c) 2025 TheMakersPrime Authors. All rights reserved.
-
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+/*
 import 'package:foundation/foundation.dart';
+import 'package:riverpod/riverpod.dart';
 
 final counterNotifierProvider = AutoDisposeNotifierProvider(CounterViewModel.new);
 
@@ -14,32 +13,15 @@ class CounterState extends StateFoundation {
   List<Object?> get props => [count];
 
   @override
-  CounterState setFailure(FailureFoundation failure) {
-    return CounterState(
-      count: count,
-      failure: failure,
-    );
-  }
-
-  @override
-  CounterState setFailureDisplay(FailureDisplay display) {
-    throw UnimplementedError();
-  }
-
-  @override
-  CounterState setLoading({
-    Loading loading = Loading.inline,
-    String? title,
-    String? subtitle,
-    bool canDismissLoading = false,
-  }) {
-    return CounterState(count: count, loading: Loading.none);
-  }
-
-  @override
   String toString() {
     return '$count | $failure | $loading';
   }
+
+  @override
+  bool get hasFailed => throw UnimplementedError();
+
+  @override
+  bool get isLoading => throw UnimplementedError();
 }
 
 class CounterViewModel extends ViewModelFoundation<CounterState> {
@@ -63,3 +45,4 @@ class CounterViewModel extends ViewModelFoundation<CounterState> {
     return const CounterState(count: 0);
   }
 }
+*/
